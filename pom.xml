@@ -76,4 +76,16 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Internal Snapshots</name>
+			<url>http://solutioin.com/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>releases</id>
+			<name>Internal Releases</name>
+			<url>http://solutioin.com/nexus/content/repositories/releases-publicas</url>
+		</repository>
+	</distributionManagement>
 </project>
